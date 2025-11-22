@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>表单</title>
+</head>
+<body>
+	<form>
+		<div>
+			<label for="username">用户名：</label>
+			<input type="text" id="username" name="username" placeholder="请输入用户名">
+		</div>
+		<div>
+			<label for="password">密码：</label>
+			<input type="password" id="password" name="password" placeholder="请输入密码">
+		</div>
+		<div>
+			<label>性别：</label>
+			<input type="radio" id="male" name="gender" value="male" checked>
+			<label for="male">男</label>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">女</label>
+		</div>
+		<div>
+			<label>兴趣爱好：</label>
+			<input type="checkbox" id="reading" name="hobby" value="reading">
+			<label for="reading">阅读</label>
+			<input type="checkbox" id="sports" name="hobby" value="sports">
+			<label for="sports">运动</label>
+			<input type="checkbox" id="music" name="hobby" value="music">
+			<label for="music">音乐</label>
+		</div>
+		<div>
+			<label for="city">所在城市：</label>
+			<select id="city" name="city">
+				<option value="shanghai" selected>上海</option>
+				<option value="pudong">浦东新区</option>
+				<option value="hongkou">虹口区</option>
+				<option value="xihui">徐汇区</option>
+				<option value="minxing">闵行区</option>
+			</select>
+		</div>
+		<div>
+			<label for="message">留言：</label>
+			<textarea id="message" name="message" rows="4" placeholder="请输入您的留言"></textarea>
+		</div>
+		<div>
+			<label for="avatar">上传头像：</label>
+			<input type="file" id="avatar" name="avatar">
+		</div>
+		<div>
+			<button type="submit">提交</button>
+			<button type="reset">重置</button>
+			<button type="button">普通按钮</button>
+		</div>
+	</form>
+</body>
+</html>
